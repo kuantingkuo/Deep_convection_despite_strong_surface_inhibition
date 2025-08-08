@@ -7,7 +7,7 @@ precinits='70 38 26'
 rc=gsfallow('on')
 num=count_num(cases)
 infile='inic.txt'
-path='/data/W.eddie/VVM/DATA/'
+path='MODEL_ROOT/VVM/DATA/'
 'reinit'
 'ini'
 ncols=7

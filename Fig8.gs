@@ -5,7 +5,7 @@ cases='14 16'
 cols='4 2'
 tsels='2 6 11 16 21 26'
 infile='inic_lin58.txt'
-path='/data/W.eddie/VVM/DATA/'
+path='MODEL_ROOT/VVM/DATA/'
 rc=gsfallow('on')
 tnum=count_num(tsels)
 'reinit'

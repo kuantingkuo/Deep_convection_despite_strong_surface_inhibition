@@ -16,7 +16,7 @@ x.4=64.5+radi
 y.1=x.1
 y.4=x.4
 
-path='/data/W.eddie/VVM/DATA/'
+path='MODEL_ROOT/VVM/DATA/'
 pattern='GoAmazon_'exp_tag'_??_t06'
 cases=sys('ls -d 'path%pattern'|awk -F/ ''{print $NF}''')
 'set mproj off'
@@ -28,7 +28,7 @@ cases=sys('ls -d 'path%pattern'|awk -F/ ''{print $NF}''')
 j=1
 i=subwrd(sels,j)
 case=subwrd(cases,i)
-path='/data/W.eddie/VVM/DATA/'case'/gs_ctl_files/'
+path='MODEL_ROOT/VVM/DATA/'case'/gs_ctl_files/'
 'open 'path'thermodynamic.ctl'
 'open 'path'W.ctl'
 'set x 1 'x.4+2*radi

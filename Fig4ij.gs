@@ -12,7 +12,7 @@ line=sublin(result,2)
 xpage=subwrd(line,4)-0.00001
 ypage=subwrd(line,6)
 
-path='/data/W.eddie/SPCAM/GoAmazon_'exp_tag'/'
+path='MODEL_ROOT/SPCAM/GoAmazon_'exp_tag'/'
 
 'set mproj off'
 'set display white'

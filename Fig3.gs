@@ -66,7 +66,7 @@ endwhile
 
 function draw_VVM()
 tag=subwrd(_tags,1)
-pattern='/data/W.eddie/VVM/DATA/GoAmazon_'tag'_??_t06/gs_ctl_files/surface.ctl'
+pattern='MODEL_ROOT/VVM/DATA/GoAmazon_'tag'_??_t06/gs_ctl_files/surface.ctl'
 ctls=sys('ls 'pattern)
 radi=3
 x.1=64.5-radi
@@ -111,7 +111,7 @@ return
 
 function draw_ACE()
 tag=subwrd(_tags,2)
-pattern='/data/W.eddie/GoAmazon_ACE/ACE-runs/'tag'/GoAmazon_idp314_kknw25cin_6aces-dynamic_means.??_enhanced-codensate-loss.ctl'
+pattern='MODEL_ROOT/ACE/'tag'/GoAmazon_idp314_kknw25cin_6aces-dynamic_means.??_enhanced-codensate-loss.ctl'
 ctls=sys('ls 'pattern)
 
 i=1
@@ -146,7 +146,7 @@ return
 
 function draw_SAM()
 tag=subwrd(_tags,3)
-pattern='/data/W.eddie/SPCAM/GoAmazon_'tag'/SAM_precpermin_'
+pattern='MODEL_ROOT/SPCAM/GoAmazon_'tag'/SAM_precpermin_'
 cases='-448_000 -448_090 -448_180 -448_270 005_000 005_090 005_180 005_270 448_000 448_090 448_180 448_270'
 i=1
 while(i<=_num)

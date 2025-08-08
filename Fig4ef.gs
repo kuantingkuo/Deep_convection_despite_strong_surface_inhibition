@@ -12,7 +12,7 @@ line=sublin(result,2)
 xpage=subwrd(line,4)-0.00001
 ypage=subwrd(line,6)
 
-path='/data/W.eddie/GoAmazon_ACE/ACE-runs/'
+path='MODEL_ROOT/ACE/'
 pattern='GoAmazon_idp314_kknw25cin_6aces-dynamic_means.??_enhanced-codensate-loss.ctl'
 cases=sys('ls -d 'path%exp_tag'/'pattern'|awk -F/ ''{print $NF}''')
 
@@ -27,7 +27,7 @@ while(j<=num)
     i=subwrd(sels,j)
     case=subwrd(cases,i)
     filename=sys('basename ""'case'"" .ctl')
-    path='/data/W.eddie/GoAmazon_ACE/ACE-runs/'exp_tag'/'subwrd(filename,1)
+    path='MODEL_ROOT/ACE/'exp_tag'/'subwrd(filename,1)
     'open 'path'.ctl'
     'open 'path'_zm.ctl'
     'set x 1'

@@ -4,7 +4,7 @@ rc=gsfallow('on')
 'reinit'
 'set mproj off'
 'ini -s'
-'open /data/W.eddie/VVM/DATA/GoAmazon_line58_16_t06/gs_ctl_files/dynamic.ctl'
+'open MODEL_ROOT/VVM/DATA/GoAmazon_line58_16_t06/gs_ctl_files/dynamic.ctl'
 'xygrid'
 'R=sqrt(pow(xgrid-64.5,2)+pow(ygrid-64.5,2))'
 'set x 'x1' 'x2
