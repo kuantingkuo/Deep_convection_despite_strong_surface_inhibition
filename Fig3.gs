@@ -130,6 +130,7 @@ while(i<=_num)
     'set ccolor 'color
     'set cmark 0'
     'set cthick 7'
+    'set vrange '_v1' '_v2
     'set yaxis '_v1' '_v2' '_vint
     'set ylabs |||||||||'
     'd pa'
@@ -162,6 +163,7 @@ while(i<=_num)
     'set ccolor 'color
     'set cmark 0'
     'set cthick 7'
+    'set vrange '_v1' '_v2
     'set yaxis '_v1' '_v2' '_vint
     'set ylabs |||||||||'
     'd prec*60'
