@@ -1,3 +1,4 @@
+*grads -a 2
 expname='RH-reduced'
 exp='line58'
 casenames='0.83 0.99'
@@ -37,7 +38,7 @@ case=subwrd(cases,i)
 endwhile
 'set x 64'
 'set y 64'
-'set z 2 26'
+'set z 2 11'
 'set t 1'
 'P='zlike('th',pres)
 
